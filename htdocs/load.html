@@ -1,0 +1,39 @@
+<!doctype html> 
+<html lang="en"> 
+    <head>
+        <script type="text/javascript">
+            if (typeof JSON === 'undefined') {
+                document.write('<sc' + 'ript type="text/javascript" src="json2.js"></sc' + 'ript>');
+            }
+        </script>
+        <link rel="stylesheet" href="screen.css" type="text/css">
+        <script type="text/javascript" src="js.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form id="JSONValidate" method="post" action="." name="JSONValidate">
+                <div class="linedtextarea">
+                  <textarea id="json_input" name="json_input" class="json_input" rows="30" cols="100" spellcheck="false" 
+                   placeholder="Enter JSON to validate, or a URL to JSON to validate."></textarea>
+                </div>
+                <div class="validateButtons clear">
+                    <div class="left">
+                      <button name="validate" id="validate" value="Validate" class="button left bold">Validate</button>
+                    </div>
+                      <div class="left" style="padding: 0 10px;">
+                        <input type="checkbox" id="reformat" checked="checked" />
+                        <label for="reformat">Reformat</label>
+                    </div>
+                      <div class="left" style="padding: 0 10px;">
+                        <input type="checkbox" id="compress" />
+                        <label for="compress">Compress</label>
+                    </div>
+                </div>
+            </form>
+            <div id="results_header" class="hide">
+              <img title="Loading..." class="reset" alt="Loading" src="loadspinner.gif" id="loadSpinner" name="loadSpinner">
+            </div>
+            <pre id="results"></pre>
+        </div>
+    </body>
+</html>

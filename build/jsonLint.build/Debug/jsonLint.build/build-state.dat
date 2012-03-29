@@ -1,0 +1,298 @@
+TjsonLint
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Info.plist jsonLint-Info.plist
+cCopyStringsFile /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib
+cCpResource htdocs build/Debug/jsonLint.app/Contents/Resources/htdocs
+cCpResource jsonLint.icns build/Debug/jsonLint.app/Contents/Resources/jsonLint.icns
+cCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/main.o /Users/home/Desktop/jsonlint/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLintAppDelegate.o /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLintAppDelegate.o /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/main.o /Users/home/Desktop/jsonlint/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint normal i386
+cLd /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint normal x86_64
+cCreateUniversalBinary /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLint normal "x86_64 i386"
+cTouch /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1B3B730000000000006560
+t1310407539
+s25952
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004E72BEDD0000000000000957
+t1316142813
+s2391
+
+N/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004F31127B0000000000432960
+t1328616059
+s4401504
+
+N/Users/home/Desktop/jsonlint/English.lproj/InfoPlist.strings
+c000000004DAB6100000000000000002D
+t1303077120
+s45
+
+N/Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib
+c000000004F72D4680000000000026CD3
+t1332925544
+s158931
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Info.plist
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLint
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/htdocs
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/jsonLint.icns
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint.LinkFileList
+c000000004F72D4F200000000000000D3
+t1332925682
+s211
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLintAppDelegate.o
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint.LinkFileList
+c000000004F72D4F200000000000000D7
+t1332925682
+s215
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLintAppDelegate.o
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/home/Desktop/jsonlint/htdocs
+c000000004F72C93C0000000000000110
+t1332922684
+s272
+
+N/Users/home/Desktop/jsonlint/jsonLint.icns
+c000000004F71A6BC0000000000003DB9
+t1332848316
+s15801
+
+N/Users/home/Desktop/jsonlint/jsonLintAppDelegate.h
+c000000004F72CC2D0000000000000115
+t1332923437
+s277
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/home/Desktop/jsonlint/jsonLintAppDelegate.m
+c000000004F72D4E60000000000000298
+t1332925670
+s664
+i"jsonLintAppDelegate.h"
+
+N/Users/home/Desktop/jsonlint/jsonLint_Prefix.pch
+c000000004F72CA940000000000000033
+t1332923028
+s51
+i<Cocoa/Cocoa.h>
+
+N/Users/home/Desktop/jsonlint/main.m
+c000000004F72CA980000000000000079
+t1332923032
+s121
+i<Cocoa/Cocoa.h>
+
+NjsonLint-Info.plist
+c000000004F72D04D000000000000044C
+t1332924493
+s1100
+
+CBuild AST from /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m
+r0
+
+CBuild AST from /Users/home/Desktop/jsonlint/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdd273b720c23b541^282746720c23b541^---0#1#0#--18"Check dependencies36"F616DECE-D0D9-44FD-874F-81E47295EE49-
+
+CCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLintAppDelegate.o /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s354618482.848791
+e354618483.346593
+r1
+xCompileC
+xbuild/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLintAppDelegate.o
+x/Users/home/Desktop/jsonlint/jsonLintAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m185ad9720c23b541^e9ba58730c23b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/home/Desktop/jsonlint/jsonLintAppDelegate.m0000000000000000^1367"CompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLintAppDelegate.o jsonLintAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/home/Desktop/jsonlint    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-generated-files.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-own-target-headers.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-all-target-headers.hmap -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-project-headers.hmap -I/Users/home/Desktop/jsonlint/build/Debug/include -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources/i386 -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources -F/Users/home/Desktop/jsonlint/build/Debug -include /Users/home/Desktop/jsonlint/jsonLint_Prefix.pch -c /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m -o /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLintAppDelegate.o36"5F29B4AD-287E-4C2A-B70F-C136BB9B3083-
+
+CCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/main.o /Users/home/Desktop/jsonlint/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s354618482.848811
+e354618483.281104
+r1
+xCompileC
+xbuild/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/main.o
+x/Users/home/Desktop/jsonlint/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Users/home/Desktop/jsonlint/main.mab5fd9720c23b541^7bf747730c23b541^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Users/home/Desktop/jsonlint/main.m0000000000000000^1307"CompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/home/Desktop/jsonlint    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-generated-files.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-own-target-headers.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-all-target-headers.hmap -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-project-headers.hmap -I/Users/home/Desktop/jsonlint/build/Debug/include -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources/i386 -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources -F/Users/home/Desktop/jsonlint/build/Debug -include /Users/home/Desktop/jsonlint/jsonLint_Prefix.pch -c /Users/home/Desktop/jsonlint/main.m -o /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/main.o36"5E84CD1D-F58B-4E6A-99E8-0F8482A6024D-
+
+CCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLintAppDelegate.o /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s354618482.848803
+e354618483.371512
+r1
+xCompileC
+xbuild/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLintAppDelegate.o
+x/Users/home/Desktop/jsonlint/jsonLintAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/home/Desktop/jsonlint/jsonLintAppDelegate.mc05ed9720c23b541^481b5f730c23b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/home/Desktop/jsonlint/jsonLintAppDelegate.m0000000000000000^1377"CompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLintAppDelegate.o jsonLintAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/home/Desktop/jsonlint    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-generated-files.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-own-target-headers.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-all-target-headers.hmap -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-project-headers.hmap -I/Users/home/Desktop/jsonlint/build/Debug/include -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources/x86_64 -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources -F/Users/home/Desktop/jsonlint/build/Debug -include /Users/home/Desktop/jsonlint/jsonLint_Prefix.pch -c /Users/home/Desktop/jsonlint/jsonLintAppDelegate.m -o /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLintAppDelegate.o36"BACE69B0-AA0A-4DE0-B2B8-976D7B6737C5-
+
+CCompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/main.o /Users/home/Desktop/jsonlint/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s354618482.848762
+e354618483.264975
+r1
+xCompileC
+xbuild/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/main.o
+x/Users/home/Desktop/jsonlint/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Users/home/Desktop/jsonlint/main.m075ed9720c23b541^84d643730c23b541^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Users/home/Desktop/jsonlint/main.m0000000000000000^1317"CompileC build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/home/Desktop/jsonlint    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -gdwarf-2 -fvisibility=hidden -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-generated-files.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-own-target-headers.hmap -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-all-target-headers.hmap -iquote /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/jsonLint-project-headers.hmap -I/Users/home/Desktop/jsonlint/build/Debug/include -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources/x86_64 -I/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/DerivedSources -F/Users/home/Desktop/jsonlint/build/Debug -include /Users/home/Desktop/jsonlint/jsonLint_Prefix.pch -c /Users/home/Desktop/jsonlint/main.m -o /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/main.o36"D07AEEC3-7028-45BC-BBD5-36B2C7B5ED98-
+
+CCompileXIB /Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib
+s354618482.289676
+e354618482.840794
+r1
+xCompileXIB
+x/Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compiling /Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib2a3a4a720c23b541^753fd7720c23b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib0000000000000000^467"CompileXIB English.lproj/MainMenu.xib    cd /Users/home/Desktop/jsonlint    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj/MainMenu.nib /Users/home/Desktop/jsonlint/English.lproj/MainMenu.xib --sdk ""36"EBAF0395-F843-45C3-BB88-37502BE5D187-
+
+CCopyStringsFile /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s354618482.289575
+e354618482.301757
+r1
+xCopyStringsFile
+x/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings83504a720c23b541^68404d720c23b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/home/Desktop/jsonlint/English.lproj/InfoPlist.strings0000000000000000^372"CopyStringsFile build/Debug/jsonLint.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/home/Desktop/jsonlint    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"95576C02-6FCD-401B-A223-13C09827715F-
+
+CCpResource htdocs build/Debug/jsonLint.app/Contents/Resources/htdocs
+s354618482.289691
+e354618482.300999
+r1
+xCpResource
+xhtdocs
+xbuild/Debug/jsonLint.app/Contents/Resources/htdocs
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug/jsonLint.app/Contents/Resources/htdocsd2364a720c23b541^620f4d720c23b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/htdocs000000000080d041^452"CpResource htdocs build/Debug/jsonLint.app/Contents/Resources/htdocs    cd /Users/home/Desktop/jsonlint    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/home/Desktop/jsonlint/htdocs /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources36"4456F94C-64B1-4A54-92AA-7AAA1E5BA1ED-
+
+CCpResource jsonLint.icns build/Debug/jsonLint.app/Contents/Resources/jsonLint.icns
+s354618482.289709
+e354618482.300715
+r1
+xCpResource
+xjsonLint.icns
+xbuild/Debug/jsonLint.app/Contents/Resources/jsonLint.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/jsonLint.app/Contents/Resources/jsonLint.icns50394a720c23b541^2ffc4c720c23b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources/jsonLint.icns000000000080d041^473"CpResource jsonLint.icns build/Debug/jsonLint.app/Contents/Resources/jsonLint.icns    cd /Users/home/Desktop/jsonlint    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/home/Desktop/jsonlint/jsonLint.icns /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Resources36"86F81EDC-7D52-4903-852A-DD3AE5DE0869-
+
+CCreateUniversalBinary /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLint normal "x86_64 i386"
+s354618483.416470
+e354618483.422244
+r1
+xCreateUniversalBinary
+x/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLint
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Create universal binary /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLintd8bc6a730c23b541^4f3b6c730c23b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLint000000000080d041^442"CreateUniversalBinary build/Debug/jsonLint.app/Contents/MacOS/jsonLint normal "x86_64 i386"    cd /Users/home/Desktop/jsonlint    /usr/bin/lipo -create /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint -output /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/MacOS/jsonLint36"629AC661-BD30-40C3-B9EA-04EC884CD93A-
+
+CLd /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint normal i386
+s354618483.353272
+e354618483.383837
+r1
+xLd
+x/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint807f5a730c23b541^fe4362730c23b541^---0#0#0#--548"Ld build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint normal i386    cd /Users/home/Desktop/jsonlint    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -L/Users/home/Desktop/jsonlint/build/Debug -F/Users/home/Desktop/jsonlint/build/Debug -filelist /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint.LinkFileList -framework Cocoa -framework WebKit -o /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/i386/jsonLint36"B12CB4A5-06CA-41E4-9C02-BA9C8B79DF58-
+
+CLd /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint normal x86_64
+s354618483.378844
+e354618483.409573
+r1
+xLd
+x/Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint850761730c23b541^0ada68730c23b541^---0#0#0#--558"Ld build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint normal x86_64    cd /Users/home/Desktop/jsonlint    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -L/Users/home/Desktop/jsonlint/build/Debug -F/Users/home/Desktop/jsonlint/build/Debug -filelist /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint.LinkFileList -framework Cocoa -framework WebKit -o /Users/home/Desktop/jsonlint/build/jsonLint.build/Debug/jsonLint.build/Objects-normal/x86_64/jsonLint36"05FE2D04-EE00-4D76-8074-570D150FCF03-
+
+CProcessInfoPlistFile /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Info.plist jsonLint-Info.plist
+s354618482.276516
+e354618482.280034
+r1
+xProcessInfoPlistFile
+x/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Info.plist
+xjsonLint-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process jsonLint-Info.plistb7d346720c23b541^31b347720c23b541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/home/Desktop/jsonlint/jsonLint-Info.plist0000000000000000^369"ProcessInfoPlistFile build/Debug/jsonLint.app/Contents/Info.plist jsonLint-Info.plist    cd /Users/home/Desktop/jsonlint    builtin-infoPlistUtility jsonLint-Info.plist -genpkginfo /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app/Contents/Info.plist36"CBDE8ADD-8E62-417E-B1BD-12ED474BF390-
+
+CTouch /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app
+s354618483.431928
+e354618483.436775
+r1
+xTouch
+x/Users/home/Desktop/jsonlint/build/Debug/jsonLint.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Touch /Users/home/Desktop/jsonlint/build/Debug/jsonLint.appf9a16e730c23b541^89d16f730c23b541^---0#0#0#--143"Touch build/Debug/jsonLint.app    cd /Users/home/Desktop/jsonlint    /usr/bin/touch -c /Users/home/Desktop/jsonlint/build/Debug/jsonLint.app36"625E1948-06BD-439D-BC4F-B0DE603A454A-
+
